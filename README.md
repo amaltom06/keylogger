@@ -1,10 +1,12 @@
 # keylogger
 **Description**
+
 This project is a keylogger that captures and logs all keystrokes made by the user. The keylogger is implemented in Python using the pynput library, which provides a simple and efficient way to monitor and log keyboard events. It records every keystroke made by the user and saves this information to a log file. This can be useful for various educational purposes, such as understanding how keyloggers work, developing user activity monitoring tools, or conducting security research.
 
 Important Note: This keylogger is intended for educational purposes only and should not be used for any malicious activities. Unauthorized use of keyloggers to capture and log keystrokes without the user's consent is illegal and unethical. Always ensure you have explicit permission to use this tool.
 
 **Features**
+
 Captures all keystrokes:
 The keylogger captures every keystroke made by the user, including letters, numbers, symbols, and special keys. This allows for comprehensive logging of user input.
 
@@ -18,6 +20,7 @@ Cross-platform support (Windows, macOS, Linux):
 The keylogger is designed to be cross-platform, meaning it can run on various operating systems including Windows, macOS, and Linux. This flexibility allows users to deploy and use the keylogger on different systems without requiring modifications to the code.
 
 **Detailed Feature Breakdown:**
+
 Captures all keystrokes:
 
 Records letters (both uppercase and lowercase).
